@@ -1,0 +1,14 @@
+1/ setup redux store:
+
+- Reducer & rootReducer
+- Action creator
+- Store
+
+2/ setup provide store
+3/ Connect to redux store from component
+4/ useSelector(): mỗi lần redux store thay đổi thì useSelector đc chạy lại
+
+- Và tính toán state mới, nếu state mới === state cũ, nếu giống nhau thì không trigger re-render, !== thì sẽ trigger re-render.
+  => Tạo mỗi thuộc tính là 1 useSelector, không tạo gộp thành 1 Object để tránh re-render không cần thiết
+
+5/

@@ -1,0 +1,16 @@
+.banner {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+
+  background-image: url(https://fastly.picsum.photos/id/562/800/300.jpg?hmac=uuyw5v7V8K41gNxgfn7pAuM6nGOyDWXfUh5iAx7GpAQ);
+  background-position: center;
+  background-size: cover;
+
+  &__title {
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: bold;
+  }
+}
